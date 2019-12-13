@@ -18,10 +18,15 @@
             </textarea>
             <br>
 
-            <input type='button' id='makeTableBtn' value='Make Table'>
-            <input type='button' id='downloadCSVBtn' value='Download CSV'>
-            <label>Line Items</label><input type='checkbox' id='lineCheck' value='lineCheck'>
-            <label>Quantity</label><input type='checkbox' id='qtyCheck' value='qtyCheck'>
+          
+            <input type='checkbox' id='lineCheck' value='lineCheck'><label>Line Number</label>
+            <input type='checkbox' id='descriptionCheck' value='descriptionCheck' checked><label>Description</label>
+            <input type='checkbox' id='qtyCheck' value='qtyCheck'><label>Quantity</label>
+            <input type='checkbox' id='availCheck' value='availCheck'><label>Availability</label>
+          <br>
+                      <input type='button' id='makeTableBtn' value='Make Table'>
+
+
         </form>
     </div>
         <br>
@@ -30,12 +35,16 @@
     <thead>
     <tr>
     <th id='lineHeader'>Line</th>
+     <th>Part Number</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Unit of Measure</th>
     <th>Quantity</th>
-    <th>Unit of Measure</th>
-    <th>Part Number</th>
-    <th>Description</th>
+      
+      
+    
       <th>Availability</th>
-    <th>Unit Price</th>
+    
       <th>Line Price</th>
   </tr>
       </thead>
