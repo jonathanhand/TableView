@@ -1,0 +1,14 @@
+table, th, td {
+  border: 1px solid black;
+   border-collapse: collapse;
+   font-family: "arial";
+}
+body {
+  text-align:center;
+}
+table {
+    padding:10px;
+  }
+th {
+  font-size: 10pt;
+}
