@@ -12,3 +12,6 @@ table {
 th {
   font-size: 10pt;
 }
+td:nth-child(8),td:nth-child(9),th:nth-child(8), td:nth-child(7),th:nth-child(7) {
+  display: none
+} 
